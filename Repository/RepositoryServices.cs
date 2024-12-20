@@ -1,9 +1,13 @@
 ﻿using Data.SqlServer.AppContext;
 using Domain.Abstractions.Base;
-using Domain.Abstractions.HRM;
+using Domain.Abstractions.Departments;
+using Domain.Abstractions.Employees;
+using Domain.Abstractions.PerformanceReviews;
 using Microsoft.Extensions.DependencyInjection;
-using Repository.EfCore.Base;
+using Repository.Base;
+using Repository.DepartmentRepositories;
 using Repository.EmployeeRepositories;
+using Repository.PerformanceReviewRepositories;
 
 namespace Repository
 {
@@ -13,6 +17,9 @@ namespace Repository
         {
             services.AddScoped<IRepositoryFacade, RepositoryFacade>();
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+            //services.AddScoped<IPerformanceReviewRepository, PerformanceReviewRepository>();
+            services.AddScoped<IPerformanceReviewRepository, PerformanceReviewRepository>();
 
             return services;
         }

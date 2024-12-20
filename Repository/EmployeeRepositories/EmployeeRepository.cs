@@ -1,15 +1,10 @@
 ﻿using Data.SqlServer.AppContext;
-using Domain.Abstractions.HRM;
+using Domain.Abstractions.Employees;
 using Domain.Dto.Employees;
 using Domain.Entities.Employees;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Repository.EmployeeRepositories
 {
@@ -48,7 +43,7 @@ namespace Repository.EmployeeRepositories
         }
 
 
-        public async Task<IEnumerable<EmployeeReadDto>> GetAllAsync(string? employeeName, int? departmentId, string? position, int? minPerformanceScore, int? maxPerformanceScore, int pageNumber, int pageSize)
+        public async Task<IEnumerable<EmployeeListDto>> GetAllAsync(string? employeeName, int? departmentId, string? position, int? minPerformanceScore, int? maxPerformanceScore, int pageNumber, int pageSize)
         {
             var query = "EXEC SearchEmployees @EmployeeName, @DepartmentId, @Position, @MinPerformanceScore, @MaxPerformanceScore, @PageNumber, @PageSize";
             var parameters = new[]
@@ -61,7 +56,7 @@ namespace Repository.EmployeeRepositories
                     new SqlParameter("@PageNumber", SqlDbType.Int) { Value = pageNumber },
                     new SqlParameter("@PageSize", SqlDbType.Int) { Value = pageSize }
                 };
-            var employees = await _context.Database.SqlQueryRaw<EmployeeReadDto>(query, parameters).ToListAsync();
+            var employees = await _context.Database.SqlQueryRaw<EmployeeListDto>(query, parameters).ToListAsync();
             return employees;
         }
 
@@ -72,9 +67,9 @@ namespace Repository.EmployeeRepositories
                 new SqlParameter("@EmployeeId", Id)
             };
 
-            var employee = await _context.Database.SqlQueryRaw<EmployeeReadDto>("EXEC GetEmployeeGById @EmployeeId", parameters)
-                .FirstOrDefaultAsync();
-            return employee;
+            var employee = await _context.Database.SqlQueryRaw<EmployeeReadDto>("EXEC GetEmployeeById @EmployeeId", parameters)
+                            .ToListAsync();
+            return employee.FirstOrDefault()!;
         }
 
         public async Task<Employee> UpdateEntity(Employee entity)

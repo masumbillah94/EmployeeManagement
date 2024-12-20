@@ -1,13 +1,13 @@
 ﻿using Application.Common.BaseHandler;
 using Application.Common.Models;
-using Application.Employees.Employees.Commands;
+using Application.Employees.Commands;
 using AutoMapper;
 using Domain.Abstractions.Base;
 using Domain.Dto.Employees;
 using Domain.Entities.Employees;
 using MediatR;
 
-namespace Application.Employees.Employees.Handlers
+namespace Application.Employees.Handlers
 {
     public class EmployeeUpdateCommandHandler : BaseHandler, IRequestHandler<EmployeeUpdateCommand, ResponseDetail<EmployeeReadDto>>
     {
@@ -28,7 +28,7 @@ namespace Application.Employees.Employees.Handlers
             {
                 var employee = _mapper.Map<Employee>(request);
                 var result = await _repositoryFacade.EmployeeRepo.UpdateEntity(employee);
-                if (result !=null)
+                if (result != null)
                 {
                     var employeeDto = _mapper.Map<EmployeeReadDto>(employee);
                     response.SuccessResponse(employeeDto, "Employee updated successfully");

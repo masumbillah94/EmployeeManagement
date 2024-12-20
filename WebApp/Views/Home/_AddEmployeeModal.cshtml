@@ -1,0 +1,80 @@
+﻿
+<div class="modal fade" id="addEmployeeModal" tabindex="-1" aria-labelledby="addEmployeeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addEmployeeModalLabel">Add Employee</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="addEmployeeForm">
+                    <!-- Name -->
+                    <div class="mb-3">
+                        <label for="empName" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="empName" required maxlength="50">
+                    </div>
+
+                    <!-- Email -->
+                    <div class="mb-3">
+                        <label for="empEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="empEmail" required maxlength="50">
+                    </div>
+
+                    <!-- Phone and Position in the same row -->
+                    <div class="row mb-3">
+                        <div class="col-6">
+                            <label for="empPhone" class="form-label">Phone</label>
+                            <input type="text" class="form-control" id="empPhone" required maxlength="30">
+                        </div>
+                        <div class="col-6">
+                            <label for="empPosition" class="form-label">Position</label>
+                            <input type="text" class="form-control" id="empPosition" required maxlength="50">
+                        </div>
+                    </div>
+
+                    <!-- Gender and Department in the same row -->
+                    <div class="row mb-3">
+                        <div class="col-6">
+                            <label for="empGender" class="form-label">Gender</label>
+                            <select class="form-select" id="empGender" required>
+                                <option value="" selected disabled>Select Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="col-6">
+                            <label for="empDepartment" class="form-label">Department</label>
+                            <select class="form-select" id="empDepartment" required>
+                                <option value="" selected disabled>Select Department</option>
+                                <!-- Department options will be loaded here dynamically -->
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Status -->
+                    <div class=" row mb-3">
+
+                        <div class="col-6">
+                            <label for="empStatus" class="form-label">Status</label>
+                            <select class="form-select" id="empStatus" required>
+                                <option value="" selected status>Select Status</option>
+                                <option value="Active">Active</option>
+                                <option value="Inactive">Inactive</option>
+                            </select>
+                        </div>
+                        <div class="col-6">
+                            <label for="empJoiningDate" class="form-label">Joining Date</label>
+                            <input type="date" class="form-control" id="empJoiningDate" required>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="saveEmployeeBtn" onclick="saveEmployee()">Save</button>
+            </div>
+        </div>
+    </div>
+</div>

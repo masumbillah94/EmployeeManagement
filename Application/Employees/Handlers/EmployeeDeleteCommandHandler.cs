@@ -1,12 +1,12 @@
 ﻿using Application.Common.BaseHandler;
 using Application.Common.Models;
-using Application.Employees.Employees.Commands;
+using Application.Employees.Commands;
 using AutoMapper;
 using Domain.Abstractions.Base;
 using Domain.Dto.Employees;
 using MediatR;
 
-namespace Application.Employees.Employees.Handlers
+namespace Application.Employees.Handlers
 {
     public class EmployeeDeleteCommandHandler : BaseHandler, IRequestHandler<EmployeeDeleteCommand, ResponseDetail<EmployeeReadDto>>
     {
@@ -31,7 +31,7 @@ namespace Application.Employees.Employees.Handlers
                     return response.InvalidResponse("Employee Not found");
                 }
                 var result = await _repositoryFacade.EmployeeRepo.DeleteByIdAsync(request.Id);
-                if (result >0)
+                if (result > 0)
                 {
                     var employeeDto = _mapper.Map<EmployeeReadDto>(employee);
                     response.SuccessResponse(employeeDto, "Employee deleted successfully.");

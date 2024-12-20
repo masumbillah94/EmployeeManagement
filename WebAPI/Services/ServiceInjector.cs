@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Cors.Infrastructure;
 
-namespace UOS.API.Services
+namespace WebAPI.Services
 {
     public static class ServiceInjector
     {
@@ -10,12 +10,12 @@ namespace UOS.API.Services
         {
             services.AddCors(options =>
             {
-                options.AddPolicy("AllowAll", new CorsPolicyBuilder()
+                options.AddPolicy("AllowAll", builder =>
+                {
+                    builder.AllowAnyOrigin()
                     .AllowAnyHeader()
-                    .AllowAnyMethod()
-                    .SetIsOriginAllowed(origin => true)
-                    .AllowCredentials()
-                    .Build());
+                    .AllowAnyMethod();
+                });
             });
             return services;
         }

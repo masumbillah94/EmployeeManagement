@@ -138,6 +138,7 @@ D:\Project(Masum)\EmployeeManagement\WebAPI\obj\Debug\net8.0\WebAPI.AssemblyInfo
 D:\Project(Masum)\EmployeeManagement\WebAPI\obj\Debug\net8.0\WebAPI.csproj.CoreCompileInputs.cache
 D:\Project(Masum)\EmployeeManagement\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
 D:\Project(Masum)\EmployeeManagement\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Project(Masum)\EmployeeManagement\WebAPI\obj\Debug\net8.0\WebAPI.sourcelink.json
 D:\Project(Masum)\EmployeeManagement\WebAPI\obj\Debug\net8.0\staticwebassets.build.json
 D:\Project(Masum)\EmployeeManagement\WebAPI\obj\Debug\net8.0\staticwebassets.development.json
 D:\Project(Masum)\EmployeeManagement\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props

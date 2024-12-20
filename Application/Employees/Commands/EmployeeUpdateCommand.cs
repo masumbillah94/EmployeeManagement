@@ -1,12 +1,11 @@
 ﻿using Application.Common.Models;
 using Domain.Dto.Employees;
 using Domain.Entities.Departments;
-using Domain.Entities.EmployeePerformances;
 using MediatR;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace Application.Employees.Employees.Commands
+namespace Application.Employees.Commands
 {
     public class EmployeeUpdateCommand : IRequest<ResponseDetail<EmployeeReadDto>>
     {
@@ -27,9 +26,9 @@ namespace Application.Employees.Employees.Commands
         [MaxLength(50)]
         public string Position { get; set; } = string.Empty;
         public DateTime? JoiningDate { get; set; }
-        public virtual List<PerformanceReview> PerformanceReviews { get; set; }
+        //public virtual List<PerformanceReview> PerformanceReviews { get; set; }
     }
 
-        #endregion Public Properties
-    
+    #endregion Public Properties
+
 }

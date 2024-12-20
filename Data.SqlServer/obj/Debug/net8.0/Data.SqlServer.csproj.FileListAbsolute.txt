@@ -11,6 +11,7 @@ D:\Project(Masum)\EmployeeManagement\Data.SqlServer\obj\Debug\net8.0\Data.SqlSer
 D:\Project(Masum)\EmployeeManagement\Data.SqlServer\obj\Debug\net8.0\Data.SqlServer.AssemblyInfoInputs.cache
 D:\Project(Masum)\EmployeeManagement\Data.SqlServer\obj\Debug\net8.0\Data.SqlServer.AssemblyInfo.cs
 D:\Project(Masum)\EmployeeManagement\Data.SqlServer\obj\Debug\net8.0\Data.SqlServer.csproj.CoreCompileInputs.cache
+D:\Project(Masum)\EmployeeManagement\Data.SqlServer\obj\Debug\net8.0\Data.SqlServer.sourcelink.json
 D:\Project(Masum)\EmployeeManagement\Data.SqlServer\obj\Debug\net8.0\Data.Sql.7F02DB60.Up2Date
 D:\Project(Masum)\EmployeeManagement\Data.SqlServer\obj\Debug\net8.0\Data.SqlServer.dll
 D:\Project(Masum)\EmployeeManagement\Data.SqlServer\obj\Debug\net8.0\refint\Data.SqlServer.dll

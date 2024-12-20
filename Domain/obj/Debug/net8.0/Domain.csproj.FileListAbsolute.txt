@@ -5,6 +5,7 @@ D:\Project(Masum)\EmployeeManagement\Domain\obj\Debug\net8.0\Domain.GeneratedMSB
 D:\Project(Masum)\EmployeeManagement\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
 D:\Project(Masum)\EmployeeManagement\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
 D:\Project(Masum)\EmployeeManagement\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Project(Masum)\EmployeeManagement\Domain\obj\Debug\net8.0\Domain.sourcelink.json
 D:\Project(Masum)\EmployeeManagement\Domain\obj\Debug\net8.0\Domain.dll
 D:\Project(Masum)\EmployeeManagement\Domain\obj\Debug\net8.0\refint\Domain.dll
 D:\Project(Masum)\EmployeeManagement\Domain\obj\Debug\net8.0\Domain.pdb

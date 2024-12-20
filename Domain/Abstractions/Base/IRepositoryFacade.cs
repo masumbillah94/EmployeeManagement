@@ -1,4 +1,6 @@
-﻿using Domain.Abstractions.HRM;
+﻿using Domain.Abstractions.Departments;
+using Domain.Abstractions.Employees;
+using Domain.Abstractions.PerformanceReviews;
 
 namespace Domain.Abstractions.Base
 {
@@ -7,6 +9,8 @@ namespace Domain.Abstractions.Base
         #region Public Properties
 
         IEmployeeRepository EmployeeRepo { get; }
+        IDepartmentRepository DepartmentRepo { get; }
+        IPerformanceReviewRepository PerformanceReviewRepo { get; }
 
         #endregion Public Properties
     }

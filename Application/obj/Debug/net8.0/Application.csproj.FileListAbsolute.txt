@@ -9,6 +9,7 @@ D:\Project(Masum)\EmployeeManagement\Application\obj\Debug\net8.0\Application.Ge
 D:\Project(Masum)\EmployeeManagement\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
 D:\Project(Masum)\EmployeeManagement\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
 D:\Project(Masum)\EmployeeManagement\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+D:\Project(Masum)\EmployeeManagement\Application\obj\Debug\net8.0\Application.sourcelink.json
 D:\Project(Masum)\EmployeeManagement\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
 D:\Project(Masum)\EmployeeManagement\Application\obj\Debug\net8.0\Application.dll
 D:\Project(Masum)\EmployeeManagement\Application\obj\Debug\net8.0\refint\Application.dll

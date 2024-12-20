@@ -2,6 +2,7 @@ using Application;
 using Data.SqlServer;
 using Microsoft.Extensions.Configuration;
 using Repository;
+using WebAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 IConfiguration Configuration = builder.Configuration;
@@ -15,8 +16,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbServices(Configuration);
-var p = builder.Services.AddRepositoryServices();
-var q = builder.Services.AddApplicationServices();
+builder.Services.AddRepositoryServices();
+builder.Services.AddCorsConfigurationService();
+builder.Services.AddApplicationServices();
 builder.Services.AddMediatR(ctg => ctg.RegisterServicesFromAssembly(typeof(ApplicationDependencyInjector).Assembly));
 
 var app = builder.Build();
@@ -27,6 +29,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
 

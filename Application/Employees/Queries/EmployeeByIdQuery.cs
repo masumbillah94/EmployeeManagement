@@ -2,7 +2,7 @@
 using Domain.Dto.Employees;
 using MediatR;
 
-namespace Application.Employees.Employees.Queries
+namespace Application.Employees.Queries
 {
     public class EmployeeByIdQuery : IRequest<ResponseDetail<EmployeeReadDto>>
     {

@@ -2,7 +2,7 @@
 using Domain.Dto.Employees;
 using MediatR;
 
-namespace Application.Employees.Employees.Commands
+namespace Application.Employees.Commands
 {
     public class EmployeeDeleteCommand : IRequest<ResponseDetail<EmployeeReadDto>>
     {

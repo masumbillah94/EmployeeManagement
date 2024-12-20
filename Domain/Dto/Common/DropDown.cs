@@ -1,4 +1,4 @@
-﻿namespace Application.Common.Models
+﻿namespace Domain.Dto.Common
 {
     public class DropDown
     {

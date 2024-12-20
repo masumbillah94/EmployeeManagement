@@ -1,9 +1,9 @@
-﻿using Application.Employees.Employees.Commands;
+﻿using Application.Employees.Commands;
 using AutoMapper;
 using Domain.Dto.Employees;
 using Domain.Entities.Employees;
 
-namespace Application.Employees.Employees.Mappers
+namespace Application.Employees.Mappers
 {
     public class EmployeeProfile : Profile
     {

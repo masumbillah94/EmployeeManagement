@@ -1,12 +1,9 @@
 ﻿using Application.Common.Models;
-using Domain.Entities.Departments;
-using Domain.Entities.EmployeePerformances;
 using MediatR;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 using Domain.Dto.Employees;
 
-namespace Application.Employees.Employees.Commands
+namespace Application.Employees.Commands
 {
     public class EmployeeAddCommand : IRequest<ResponseDetail<EmployeeReadDto>>
     {

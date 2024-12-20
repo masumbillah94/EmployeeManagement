@@ -2,7 +2,7 @@
 using Application.Common.Models.Enum;
 using Microsoft.AspNetCore.Mvc;
 
-namespace UOS.API.Services
+namespace WebAPI.Services
 {
     public static class RequestResponse
     {

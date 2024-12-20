@@ -1,8 +1,8 @@
-﻿using Application.Employees.Employees.Commands;
-using Application.Employees.Employees.Queries;
+﻿using Application.Employees.Commands;
+using Application.Employees.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using UOS.API.Services;
+using WebAPI.Services;
 
 namespace WebAPI.Controllers.Employees
 {
@@ -11,11 +11,11 @@ namespace WebAPI.Controllers.Employees
     public class EmployeeController : ControllerBase
     {
 
-        private IMediator MediatorObject =>  HttpContext.RequestServices.GetService<IMediator>()!;
+        private IMediator MediatorObject => HttpContext.RequestServices.GetService<IMediator>()!;
 
         public EmployeeController()
         {
-                
+
         }
 
         [HttpPost]
@@ -44,13 +44,13 @@ namespace WebAPI.Controllers.Employees
         {
             var result = await MediatorObject.Send(new EmployeeListQuery()
             {
-                employeeName=employeeName,
-                departmentId=departmentId,
-                position=position,
-                minPerformanceScore=minPerformanceScore,
-                maxPerformanceScore=maxPerformanceScore,
-                pageNumber=pageNumber,
-                pageSize=pageSize
+                employeeName = employeeName,
+                departmentId = departmentId,
+                position = position,
+                minPerformanceScore = minPerformanceScore,
+                maxPerformanceScore = maxPerformanceScore,
+                pageNumber = pageNumber,
+                pageSize = pageSize
             });
             return RequestResponse.ReturnResponse(result);
         }

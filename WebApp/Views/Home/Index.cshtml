@@ -1,8 +1,54 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Employee List";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container">
+    <div class="d-flex justify-content-end w-100 mb-1">
+        <button class="btn btn-primary me-2" onclick="showSearchModal()">
+            <i class="fas fa-search"></i>
+        </button>
+        <button class="btn btn-success" onclick="showAddEmployeeModal()">
+            <i class="fas fa-plus"></i> Employee
+        </button>
+    </div>
+
+    <table id="employeeTable" class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Gender</th>
+                <th>Position</th>
+                <th>Department</th>
+                <th>Status</th>
+                <th>Joining Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="employeeBody">
+            <!-- Data will be loaded here via AJAX -->
+        </tbody>
+    </table>
+
+    <!-- Pagination Controls -->
+    <div class="d-flex justify-content-between">
+        <div id="labelOfRange" class="d-flex justify-content-start"></div>
+        <div class="d-flex justify-content-end">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination" id="paginationControls">
+              </ul>
+            </nav>
+        </div>
+        <!-- Pagination links will be populated here -->
+    </div>
 </div>
+<partial name="_AddEmployeeModal"></partial>
+<partial name="_EditEmployeeModal"></partial>
+<partial name="_DeleteEmployeeModal"></partial>
+<partial name="_PerformanceReviewModal"></partial>
+<partial name="_SearchModal"></partial>
+
+@section scripts {
+    <script src="~/js/employeePageScript.js"></script>
+}

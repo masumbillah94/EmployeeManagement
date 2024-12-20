@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FeMj0axGwrnwllr5Coebl8c1BLmklWqHizSvDQNhVHQ=",
+  "Hash": "5LwU6aiBAT4FHgRP6GXMLYrxBmu541EPUF1UGuMN1ws=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Project(Masum)\\EmployeeManagement\\WebApp\\wwwroot\\js\\employeePageScript.js",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project(Masum)\\EmployeeManagement\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "js/employeePageScript.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\employeePageScript.js"
     },
     {
       "Identity": "D:\\Project(Masum)\\EmployeeManagement\\WebApp\\wwwroot\\js\\site.js",

@@ -1,8 +1,10 @@
 ﻿using Data.SqlServer.AppContext;
 using Domain.Abstractions.Base;
-using Domain.Abstractions.HRM;
+using Domain.Abstractions.Departments;
+using Domain.Abstractions.Employees;
+using Domain.Abstractions.PerformanceReviews;
 
-namespace Repository.EfCore.Base
+namespace Repository.Base
 {
     public class RepositoryFacade : IRepositoryFacade
     {
@@ -16,12 +18,16 @@ namespace Repository.EfCore.Base
 
         public RepositoryFacade(
             AppDbContext context,
-            IEmployeeRepository employeeRepository
+            IEmployeeRepository employeeRepository,
+            IDepartmentRepository departmentRepository,
+            IPerformanceReviewRepository performanceReviewRepository
         )
         {
             Context = context;
             EmployeeRepo = employeeRepository;
-           
+            DepartmentRepo = departmentRepository;
+            PerformanceReviewRepo= performanceReviewRepository;
+
         }
 
         #endregion Public Constructors
@@ -29,6 +35,8 @@ namespace Repository.EfCore.Base
         #region Public Properties
 
         public IEmployeeRepository EmployeeRepo { get; }
+        public IDepartmentRepository DepartmentRepo { get; }
+        public IPerformanceReviewRepository PerformanceReviewRepo { get; }
 
         #endregion Public Properties
 

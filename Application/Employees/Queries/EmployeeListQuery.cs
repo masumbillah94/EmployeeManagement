@@ -5,9 +5,9 @@ using MediatR;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace Application.Employees.Employees.Queries
+namespace Application.Employees.Queries
 {
-    public class EmployeeListQuery : IRequest<ResponseDetail<List<EmployeeReadDto>>>
+    public class EmployeeListQuery : IRequest<ResponseDetail<List<EmployeeListDto>>>
     {
         public string? employeeName { get; set; }
         public int? departmentId { get; set; }
