@@ -11,6 +11,7 @@ namespace Application.PerformanceReviews.Commands
         #region Public Properties
 
         public long EmployeeId { get; set; }
+        [Range(0,10)]
         public int ReviewScore { get; set; }
         [MaxLength(200)]
         public string ReviewNote { get; set; } = string.Empty;

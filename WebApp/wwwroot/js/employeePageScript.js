@@ -182,6 +182,20 @@ function saveEmployee() {
     const empDepartment = $('#empDepartment').val();
     const empStatus = $('#empStatus').val();
     const empJoiningDate = $('#empJoiningDate').val();
+    const inputIds = [
+        '#empName',
+        '#empEmail',
+        '#empPhone',
+        '#empPosition',
+        '#empGender',
+        '#empDepartment',
+        '#empStatus',
+        '#empJoiningDate'
+    ];
+    if (!validateForm(inputIds)) {
+        retturn;
+    }
+
 
     const employeeData = {
         Name: empName,
@@ -196,9 +210,9 @@ function saveEmployee() {
 
     CallApi('POST', 'Employee', employeeData,
         (data) => {
-            const queryData = { pageNumber: 1, pazeSize: 10 };
+            const queryData = { pageNumber: 1, pageSize: 10 };
             loadEmployees(queryData);
-            $('#editEmployeeModal').modal('hide');
+            $('#addEmployeeModal').modal('hide');
         },
         (err) => {
             console.log(err);
@@ -210,7 +224,11 @@ function saveReview() {
     const reviewScore = $('#reviewScore').val();
     const reviewNote = $('#reviewNote').val();
     const empPRId = $('#empPRId').val();
-
+    if (reviewScore > 10 || reviewScore < 0) {
+        $('#reviewScore').val(0);
+        $('#reviewScore').addClass('is-invalid');
+        return
+    }
     const reviewData = {
         ReviewScore: reviewScore,
         ReviewNote: reviewNote,
@@ -219,7 +237,7 @@ function saveReview() {
 
     CallApi('POST', 'PerformanceReview', reviewData,
         (data) => {
-            const queryData = { pageNumber: 1, pazeSize: 10 };
+            const queryData = { pageNumber: 1, pageSize: 10 };
             loadEmployees(queryData);
             $('#performanceReviewModal').modal('hide');
         },
@@ -253,7 +271,7 @@ function updateEmployee() {
     };
     CallApi('PUT', 'Employee', employeeData,
         (data) => {
-            const queryData = { pageNumber: 1, pazeSize: 10 };
+            const queryData = { pageNumber: 1, pageSize: 10 };
             loadEmployees(queryData);
             $('#editEmployeeModal').modal('hide');
         },
@@ -301,3 +319,21 @@ function populateDropdown(data, id, defaultText = 'One') {
         );
     });
 }
+
+function validateForm(fields) {
+    let isValid = true;
+
+    $('input').removeClass('is-invalid');
+    $('select').removeClass('is-invalid');
+
+    $.each(fields, function (index, item) {
+
+        if (!$(item).val()) {
+            $(item).addClass('is-invalid');
+            isValid = false;
+        }
+    });
+
+    return isValid;
+}
+
