@@ -31,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{881CFC02-A6F6-4B75-9327-95464E1FDD29}|Domain\\Domain.csproj|solutionrelative:domain\\abstractions\\employee\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project(Masum)\\EmployeeManagement\\Data.SqlServer\\Migrations\\20241219235447_MakeManagerIdNullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data.SqlServer\\Migrations\\20241219235447_MakeManagerIdNullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{881CFC02-A6F6-4B75-9327-95464E1FDD29}|Domain\\Domain.csproj|d:\\project(masum)\\employeemanagement\\domain\\entities\\departments\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{881CFC02-A6F6-4B75-9327-95464E1FDD29}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\departments\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -163,12 +159,12 @@
       "RelativeMoniker": "D:0:0:{24598613-8479-4E67-B4DE-32AD0C423B5A}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{881CFC02-A6F6-4B75-9327-95464E1FDD29}|Domain\\Domain.csproj|d:\\project(masum)\\employeemanagement\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{881CFC02-A6F6-4B75-9327-95464E1FDD29}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E0D79A85-F950-4C23-B94A-CC424B677622}|Data.SqlServer\\Data.SqlServer.csproj|d:\\project(masum)\\employeemanagement\\data.sqlserver\\migrations\\20241219052629_add_reviewscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0D79A85-F950-4C23-B94A-CC424B677622}|Data.SqlServer\\Data.SqlServer.csproj|solutionrelative:data.sqlserver\\migrations\\20241219052629_add_reviewscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D79A85-F950-4C23-B94A-CC424B677622}|Data.SqlServer\\Data.SqlServer.csproj|d:\\project(masum)\\employeemanagement\\data.sqlserver\\migrations\\20241219235447_makemanageridnullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D79A85-F950-4C23-B94A-CC424B677622}|Data.SqlServer\\Data.SqlServer.csproj|solutionrelative:data.sqlserver\\migrations\\20241219235447_makemanageridnullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -264,22 +260,9 @@
               "RelativeDocumentMoniker": "Repository\\EmployeeRepositories\\EmployeeRepository.cs",
               "ToolTip": "D:\\Project(Masum)\\EmployeeManagement\\Repository\\EmployeeRepositories\\EmployeeRepository.cs",
               "RelativeToolTip": "Repository\\EmployeeRepositories\\EmployeeRepository.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAtwDMAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAawEMAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-19T12:25:29.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeeReadDto.cs",
-              "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Domain\\Dto\\Employees\\EmployeeReadDto.cs",
-              "RelativeDocumentMoniker": "Domain\\Dto\\Employees\\EmployeeReadDto.cs",
-              "ToolTip": "D:\\Project(Masum)\\EmployeeManagement\\Domain\\Dto\\Employees\\EmployeeReadDto.cs",
-              "RelativeToolTip": "Domain\\Dto\\Employees\\EmployeeReadDto.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAmwBcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T08:09:47.786Z",
               "EditorCaption": ""
             },
             {
@@ -292,8 +275,7 @@
               "RelativeToolTip": "Application\\Employees\\Handlers\\EmployeeListQueryHandler.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAvwBwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T08:06:00.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T08:06:00.772Z"
             },
             {
               "$type": "Document",
@@ -305,8 +287,7 @@
               "RelativeToolTip": "Domain\\Abstractions\\Employee\\IEmployeeRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T08:29:02.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T08:29:02.295Z"
             },
             {
               "$type": "Document",
@@ -318,8 +299,19 @@
               "RelativeToolTip": "Application\\Employees\\Handlers\\EmployeeAddCommandHandler.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwBgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T08:04:00.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T08:04:00.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeReadDto.cs",
+              "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Domain\\Dto\\Employees\\EmployeeReadDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Dto\\Employees\\EmployeeReadDto.cs",
+              "ToolTip": "D:\\Project(Masum)\\EmployeeManagement\\Domain\\Dto\\Employees\\EmployeeReadDto.cs",
+              "RelativeToolTip": "Domain\\Dto\\Employees\\EmployeeReadDto.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwBcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T08:09:47.786Z"
             },
             {
               "$type": "Document",
@@ -331,8 +323,7 @@
               "RelativeToolTip": "WebAPI\\Controllers\\Employees\\EmployeeController.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAiwCsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T05:42:30.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T05:42:30.725Z"
             },
             {
               "$type": "Document",
@@ -344,12 +335,11 @@
               "RelativeToolTip": "Application\\Employees\\Queries\\EmployeeListQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T09:38:33.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T09:38:33.29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 40,
               "Title": "20241219235447_MakeManagerIdNullable.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Data.SqlServer\\Migrations\\20241219235447_MakeManagerIdNullable.cs",
               "RelativeDocumentMoniker": "Data.SqlServer\\Migrations\\20241219235447_MakeManagerIdNullable.cs",
@@ -357,12 +347,11 @@
               "RelativeToolTip": "Data.SqlServer\\Migrations\\20241219235447_MakeManagerIdNullable.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T23:54:47.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T23:54:47.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Department.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Domain\\Entities\\Departments\\Department.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Departments\\Department.cs",
@@ -370,12 +359,11 @@
               "RelativeToolTip": "Domain\\Entities\\Departments\\Department.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T15:59:36.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T15:59:36.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Domain\\Entities\\Employees\\Employee.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Employees\\Employee.cs",
@@ -383,12 +371,11 @@
               "RelativeToolTip": "Domain\\Entities\\Employees\\Employee.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAqwBgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T15:58:39.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T15:58:39.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "DbDependencyInjector.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Data.SqlServer\\DbDependencyInjector.cs",
               "RelativeDocumentMoniker": "Data.SqlServer\\DbDependencyInjector.cs",
@@ -396,12 +383,11 @@
               "RelativeToolTip": "Data.SqlServer\\DbDependencyInjector.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T18:45:05.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T18:45:05.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "EmployeeAddCommand.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Application\\Employees\\Commands\\EmployeeAddCommand.cs",
               "RelativeDocumentMoniker": "Application\\Employees\\Commands\\EmployeeAddCommand.cs",
@@ -409,12 +395,11 @@
               "RelativeToolTip": "Application\\Employees\\Commands\\EmployeeAddCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T08:10:36.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T08:10:36.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "EmployeeByIdQuery.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Application\\Employees\\Queries\\EmployeeByIdQuery.cs",
               "RelativeDocumentMoniker": "Application\\Employees\\Queries\\EmployeeByIdQuery.cs",
@@ -422,12 +407,11 @@
               "RelativeToolTip": "Application\\Employees\\Queries\\EmployeeByIdQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T11:14:37.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T11:14:37.629Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "IRepositoryFacade.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Domain\\Abstractions\\Base\\IRepositoryFacade.cs",
               "RelativeDocumentMoniker": "Domain\\Abstractions\\Base\\IRepositoryFacade.cs",
@@ -435,12 +419,11 @@
               "RelativeToolTip": "Domain\\Abstractions\\Base\\IRepositoryFacade.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T08:27:14.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T08:27:14.774Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "EmployeeProfile.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Application\\Employees\\Mappers\\EmployeeProfile.cs",
               "RelativeDocumentMoniker": "Application\\Employees\\Mappers\\EmployeeProfile.cs",
@@ -448,12 +431,11 @@
               "RelativeToolTip": "Application\\Employees\\Mappers\\EmployeeProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T09:39:32.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T09:39:32.613Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "RepositoryFacade.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Repository\\Base\\RepositoryFacade.cs",
               "RelativeDocumentMoniker": "Repository\\Base\\RepositoryFacade.cs",
@@ -461,12 +443,11 @@
               "RelativeToolTip": "Repository\\Base\\RepositoryFacade.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T08:54:02.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T08:54:02.647Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "RepositoryServices.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Repository\\RepositoryServices.cs",
               "RelativeDocumentMoniker": "Repository\\RepositoryServices.cs",
@@ -478,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "EmployeeDeleteCommandHandler.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Application\\Employees\\Handlers\\EmployeeDeleteCommandHandler.cs",
               "RelativeDocumentMoniker": "Application\\Employees\\Handlers\\EmployeeDeleteCommandHandler.cs",
@@ -490,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "EmployeeByIdQueryHandler.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Application\\Employees\\Handlers\\EmployeeByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "Application\\Employees\\Handlers\\EmployeeByIdQueryHandler.cs",
@@ -502,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "EmployeeUpdateCommandHandler.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Application\\Employees\\Handlers\\EmployeeUpdateCommandHandler.cs",
               "RelativeDocumentMoniker": "Application\\Employees\\Handlers\\EmployeeUpdateCommandHandler.cs",
@@ -514,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "ResponseDetail.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Application\\Common\\Models\\ResponseDetail.cs",
               "RelativeDocumentMoniker": "Application\\Common\\Models\\ResponseDetail.cs",
@@ -526,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "Domain.csproj",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "Domain\\Domain.csproj",
@@ -538,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "ApplicationFactory.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Application\\Common\\Models\\ApplicationFactory.cs",
               "RelativeDocumentMoniker": "Application\\Common\\Models\\ApplicationFactory.cs",
@@ -550,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "RequestResponse.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\WebAPI\\Services\\RequestResponse.cs",
               "RelativeDocumentMoniker": "WebAPI\\Services\\RequestResponse.cs",
@@ -562,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "ServiceInjector.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\WebAPI\\Services\\ServiceInjector.cs",
               "RelativeDocumentMoniker": "WebAPI\\Services\\ServiceInjector.cs",
@@ -574,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "WebAPI.csproj",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\WebAPI\\WebAPI.csproj",
               "RelativeDocumentMoniker": "WebAPI\\WebAPI.csproj",
@@ -586,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "EmployeeUpdateCommand.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Application\\Employees\\Commands\\EmployeeUpdateCommand.cs",
               "RelativeDocumentMoniker": "Application\\Employees\\Commands\\EmployeeUpdateCommand.cs",
@@ -598,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "EmployeeDeleteCommand.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Application\\Employees\\Commands\\EmployeeDeleteCommand.cs",
               "RelativeDocumentMoniker": "Application\\Employees\\Commands\\EmployeeDeleteCommand.cs",
@@ -610,7 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "BaseHandler.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Application\\Common\\BaseHandler\\BaseHandler.cs",
               "RelativeDocumentMoniker": "Application\\Common\\BaseHandler\\BaseHandler.cs",
@@ -622,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "Repository.csproj",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Repository\\Repository.csproj",
               "RelativeDocumentMoniker": "Repository\\Repository.csproj",
@@ -634,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "Repository",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Repository\\Repository.csproj",
               "RelativeDocumentMoniker": "Repository\\Repository.csproj",
@@ -645,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Data.SqlServer\\AppContext\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data.SqlServer\\AppContext\\AppDbContext.cs",
@@ -657,7 +638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "Application.csproj",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Application\\Application.csproj",
               "RelativeDocumentMoniker": "Application\\Application.csproj",
@@ -669,7 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 39,
               "Title": "20241219052629_add_ReviewScore.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Data.SqlServer\\Migrations\\20241219052629_add_ReviewScore.cs",
               "RelativeDocumentMoniker": "Data.SqlServer\\Migrations\\20241219052629_add_ReviewScore.cs",
@@ -681,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "20241218200905_InitialCreate.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Data.SqlServer\\Migrations\\20241218200905_InitialCreate.cs",
               "RelativeDocumentMoniker": "Data.SqlServer\\Migrations\\20241218200905_InitialCreate.cs",
@@ -693,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
@@ -705,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "PerformanceReview.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Domain\\Entities\\EmployeePerformances\\PerformanceReview.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\EmployeePerformances\\PerformanceReview.cs",
@@ -717,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Domain\\Entities\\Base\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Base\\BaseEntity.cs",
@@ -729,7 +710,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\WebApp\\Program.cs",
               "RelativeDocumentMoniker": "WebApp\\Program.cs",
@@ -741,7 +722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "Data.SqlServer.csproj",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Data.SqlServer\\Data.SqlServer.csproj",
               "RelativeDocumentMoniker": "Data.SqlServer\\Data.SqlServer.csproj",
@@ -753,7 +734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\WebApp\\appsettings.json",
               "RelativeDocumentMoniker": "WebApp\\appsettings.json",
@@ -762,18 +743,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-18T14:03:49.164Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Project(Masum)\\EmployeeManagement\\Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "Domain\\Class1.cs",
-              "ToolTip": "D:\\Project(Masum)\\EmployeeManagement\\Domain\\Class1.cs",
-              "RelativeToolTip": "Domain\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T12:34:05.906Z"
             }
           ]
         }
